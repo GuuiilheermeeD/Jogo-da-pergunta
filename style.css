@@ -9,7 +9,7 @@ body {
 }
 
 #question {
-    font-size: 24px;
+    font-size: 2em;
     margin-bottom: 20px;
     background-color: #ffffffda;
     padding: 0.5em;
@@ -48,4 +48,25 @@ body {
     display: flex;
     justify-content: center;
     border-radius: 25px;
+}
+
+ @media screen and (max-width: 800px){
+
+    body{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+        
+    }
+
+    #question{
+        font-size: 1em;
+        padding: 5px;
+    }
+
+    #pix, img{
+        width: 90%;
+    }
+    
 }
