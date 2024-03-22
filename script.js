@@ -1,5 +1,4 @@
 function handleYes() {
-    alert("Aeeeeeeeeeeeeee! 😊");
 }
 
 function handleNo() {
