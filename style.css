@@ -3,19 +3,26 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #a70b78;
+    background-image: url(imagem/dinheiro.png); 
+    background-color: #66cf0f7c;
     font-family: Arial, sans-serif;
 }
+
 #question {
     font-size: 24px;
     margin-bottom: 20px;
+    background-color: #ffffffda;
+    padding: 0.5em;
+    border-radius: 25px;
 }
+
 #options {
     display: flex;
     justify-content: center;
 }
+
 .option {
-    background-color: #077af5;
+    background-color: #338f09;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -23,11 +30,22 @@ body {
     margin: 0 10px;
     cursor: pointer;
     transition: transform 0.3s;
+    text-decoration: none;
 }
+
 .option:hover {
     transform: scale(1.1);
-    background-color: #4e07f5;
+    background-color: #f5c907;
 }
+
 .no {
-    order: 2; /* Altera a ordem do elemento */
+    order: 2;
+    /* Altera a ordem do elemento */
+}
+
+#pix, img{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
 }
