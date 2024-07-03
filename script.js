@@ -1,6 +1,3 @@
-function handleYes() {
-}
-
 function handleNo() {
     const noButton = document.getElementById("noBtn");
     const yesButton = document.getElementById("yesBtn");

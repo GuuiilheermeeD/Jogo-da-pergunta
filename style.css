@@ -3,7 +3,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url(imagem/dinheiro.png); 
+    background-image: url(imagem/dinheiro.png);
     background-color: #66cf0f7c;
     font-family: Arial, sans-serif;
 }
@@ -43,23 +43,23 @@ body {
     /* Altera a ordem do elemento */
 }
 
- @media screen and (max-width: 800px){
+@media screen and (max-width: 800px) {
 
-    body{
+    body {
         display: flex;
         flex-wrap: wrap;
         text-align: center;
         justify-content: center;
-        
+
     }
 
-    #question{
+    #question {
         font-size: 1em;
         padding: 5px;
     }
 
-    #pix, img{
+    #pix,
+    img {
         width: 90%;
     }
-    
 }
